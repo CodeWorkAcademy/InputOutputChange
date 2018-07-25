@@ -14,7 +14,8 @@ public class AskingQuestionsSolution {
 
         System.out.print( "Second temperature? " );
         num2 = keyboard.nextInt();
-
-        System.out.println("The average value.");
+        num3 =num1+num2;
+        int avg=num3/2;
+        System.out.println("The average value: "+avg );
     }
 }
